@@ -1,0 +1,104 @@
+name: ember
+description: A new Flutter application.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  google_fonts: ^1.1.0
+  cupertino_icons: ^0.1.3
+
+  # Package to create app Icon
+  flutter_launcher_icons: ^0.7.5
+
+# Package to automatically resize packages.
+  auto_size_text: ^2.1.0
+
+
+  # For DateTimeFormat
+  intl: ^0.16.1
+
+  # SVG Package for Icons
+  websafe_svg: ^1.1.0
+
+  # Firebase Dependencies
+  firebase_core: ^0.5.0
+  firebase_auth: ^0.18.0+1
+  cloud_firestore: ^0.14.0+2
+  firebase_storage: ^4.0.0
+  cloud_functions: ^0.6.0
+
+  # Package for Bell Curve
+  fl_chart: ^0.11.0
+
+
+  # Package that launches PDFs and Links in new tabs.
+  url_launcher: ^5.5.0
+
+  # Package to generate random Passwords and UserNames.
+  random_string: ^2.1.0
+
+  # Date Time Picker
+  flutter_datetime_picker: ^1.5.0
+
+
+  # Package for cached image
+  # Might need this, link: https://pub.dev/packages/cached_network_image
+  #  cached_network_image: ^2.2.0+1
+  #
+  ## Might need this too. Link: https://pub.dev/packages/image
+  #  image: ^2.1.14
+
+  # File Picker Package
+  # Link: https://pub.dev/packages/file_picker
+  file_picker: ^1.13.3
+  file_picker_web: any
+  file_picker_platform_interface: ^1.3.1
+
+  universal_html: ^1.2.3
+
+  app_settings: 4.0.4
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # Needed for Icons
+  flutter_launcher_icons: "^0.7.3"
+
+# Can be changed anytime in here.
+flutter_icons:
+  android: true
+  ios: true
+  image_path_ios: "assets/appIcon.png"
+  image_path_android: "assets/appIcon.png"
+
+flutter:
+
+  uses-material-design: true
+
+  #Assets and Icons
+  assets:
+    - assets/
+    - assets/icons/
+    - assets/tabIcons/
+    - assets/terms.txt
+  # Fonts
+  fonts:
+    - family: Agatha
+      fonts:
+        - asset: fonts/Agatha.ttf
+    - family: Pacifico
+      fonts:
+        - asset: fonts/Pacifico-Regular.ttf
+
